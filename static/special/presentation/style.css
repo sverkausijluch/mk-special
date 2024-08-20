@@ -150,6 +150,11 @@ body {
 	color: inherit;
 }
 
+.demo-section a:focus {
+	border: 0;
+	outline: 0;
+}
+
 .demo-section .demo-show-info {
 	display: none;
 }
