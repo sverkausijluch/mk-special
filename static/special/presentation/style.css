@@ -340,12 +340,17 @@ body {
 		padding-top: 8vh;
 	}
 	
+	.demo-section .second-color-block p {
+		margin-bottom: 30px;
+	}
+	
 	.demo-section .second-color-block p a {
 		border: 1px solid;
 		top: 0;
 		left: 0;
 		border-image: conic-gradient(from var(--angle), rgb(41 128 185 / 32%), rgb(109 213 250 / 44%), rgb(255 255 255 / 8%)) 1;
 		animation: .5s rotate linear;	
+		padding: 8px;
 	}
 	
 	.instruction-block {
