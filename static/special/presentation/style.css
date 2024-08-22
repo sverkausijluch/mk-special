@@ -180,7 +180,7 @@ body {
 	font-weight: 400;
     margin: 0;
     line-height: 2.6em;
-    background: rgb(204,206,209,.8);
+    background: rgb(204,206,209,1);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -292,6 +292,12 @@ body {
 	.main-info h1 {
 		margin: 0;
 		font-size: 3em;
+	}
+	
+	
+	.demo-section .demo-cover:hover .demo-show-info h2 { 
+		line-height: 1.6em;
+		font-size: 2em;
 	}
 	
 	.description-list p {
