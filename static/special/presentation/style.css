@@ -295,10 +295,22 @@ body {
 		font-size: 3em;
 	}
 	
+	.demo-section .demo-cover .demo-show-info {
+		display: block;
+		text-align: center;
+		padding-top: 30px;
+	}
 	
-	.demo-section .demo-cover:hover .demo-show-info h2 { 
+	.demo-section .demo-cover .demo-show-info h2 { 
 		line-height: 1.6em;
 		font-size: 2em;
+		font-weight: 400;
+		background: rgb(204,206,209,1);
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		text-fill-color: transparent;
+		background-size: 500% auto;
 	}
 	
 	.description-list p {
@@ -324,6 +336,10 @@ body {
 		padding: 20px 3%;
 	}
 	
+	.demo-section .second-color-block {
+		padding-top: 8vh;
+	}
+	
 	.demo-section .second-color-block p a {
 		border: 1px solid;
 		top: 0;
@@ -331,4 +347,9 @@ body {
 		border-image: conic-gradient(from var(--angle), rgb(41 128 185 / 32%), rgb(109 213 250 / 44%), rgb(255 255 255 / 8%)) 1;
 		animation: .5s rotate linear;	
 	}
+	
+	.instruction-block {
+		margin-bottom: 20px;
+	}
+	
 }
