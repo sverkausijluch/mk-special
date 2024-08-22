@@ -313,6 +313,18 @@ body {
 		background-size: 500% auto;
 	}
 	
+	.demo-section .demo-cover:hover .demo-show-info h2 { 
+		line-height: 1.6em;
+		font-size: 2em;
+		font-weight: 400;
+		background: rgb(204,206,209,1);
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		text-fill-color: transparent;
+		background-size: 500% auto;
+	}
+	
 	.description-list p {
 		width: 100%;
 		margin-top: 10px;
