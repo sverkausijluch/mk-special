@@ -298,7 +298,7 @@ body {
 	.demo-section .demo-cover .demo-show-info {
 		display: block;
 		text-align: center;
-		padding-top: 30px;
+		padding-top: 15vh;
 	}
 	
 	.demo-section .demo-cover .demo-show-info h2 { 
@@ -328,7 +328,7 @@ body {
 	}
 	
 	.demo-section .demo-cover {
-		height: 240px;
+		height: 50vh;
 		background-position: center;
 	}
 	
