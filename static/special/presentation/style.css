@@ -287,10 +287,11 @@ body {
 	
 	.line-star {
 		margin-top: 0;
+		width: 100%;
 	}
 	
 	.main-info h1 {
-		margin: 0;
+		margin-top: 20px;
 		font-size: 3em;
 	}
 	
@@ -320,7 +321,7 @@ body {
 	}
 	
 	.small-container {
-		padding: 30px 3%;
+		padding: 20px 3%;
 	}
 	
 	.demo-section .second-color-block p a {
