@@ -14,7 +14,7 @@ SECRET_KEY = '...'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['windmail.space']
+ALLOWED_HOSTS = ['адрес']
 
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_ALLOW_ALL = True
